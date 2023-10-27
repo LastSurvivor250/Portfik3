@@ -52,6 +52,7 @@ const Hero = ({ open }) => {
             Web Development Digital Experience Content Creation
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
+            <motion.button variants={textVariants}>About</motion.button>
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
