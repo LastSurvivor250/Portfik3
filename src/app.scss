@@ -15,6 +15,11 @@ body {
   color: lightgray;
 }
 
+.main-content {
+  margin-left: 260px; /* Add margin to accommodate the sidebar width */
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
   color: inherit;
