@@ -15,7 +15,7 @@ const App = () => {
     <div className={`app ${open ? "open" : ""}`}>
       <section id="Homepage">
         <Navbar open={open} setOpen={setOpen} />
-        <Hero />
+        <Hero open={open} />
       </section>
       <section id="Services">
         <Parallax type="services" />
