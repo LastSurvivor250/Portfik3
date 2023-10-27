@@ -48,9 +48,9 @@ const Hero = ({ open }) => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>PAUL MIGASIUK</motion.h2>
-          <motion.h2 variants={textVariants}>
+          <motion.h1 variants={textVariants}>
             Web Wizardry Digital Storytelling{" "}
-          </motion.h2>
+          </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
