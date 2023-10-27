@@ -8,11 +8,11 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 
-const App = ({ open, setOpen }) => {
+const App = () => {
   return (
-    <div className={`main-content ${open ? "open" : ""}`}>
+    <div>
       <section id="Homepage">
-        <Navbar open={open} setOpen={setOpen} />
+        <Navbar />
         <Hero />
       </section>
       <section id="Services">
