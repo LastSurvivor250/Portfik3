@@ -49,8 +49,7 @@ const Hero = ({ open }) => {
         >
           <motion.h2 variants={textVariants}>PAWEŁ MIGASIUK</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web Wizard: Digital Alchemist Tech Wordsmith Online Experience
-            Architect:{" "}
+            Web Wizard: Digital Storyteller{" "}
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
