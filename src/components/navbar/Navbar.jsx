@@ -7,6 +7,7 @@ const Navbar = ({ open, setOpen }) => {
     <div className={`navbar ${open ? "open" : ""}`}>
       {/* Sidebar */}
       <Sidebar open={open} />
+      CONTENT CULTURE
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
