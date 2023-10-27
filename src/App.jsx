@@ -1,4 +1,5 @@
 //import Test from "./Test";
+import { useState } from "react";
 import "./app.scss";
 import Contact from "./components/contact/Contact";
 //import Cursor from "./components/cursor/Cursor";
@@ -9,10 +10,11 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 
 const App = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <div>
+    <div className={`app ${open ? "open" : ""}`}>
       <section id="Homepage">
-        <Navbar />
+        <Navbar open={open} setOpen={setOpen} />
         <Hero />
       </section>
       <section id="Services">

@@ -15,6 +15,14 @@ body {
   color: lightgray;
 }
 
+.app {
+  transition: margin 0.5s; /* Apply a transition for smooth animation */
+}
+
+.open {
+  /* Adjust the width of the App component when the sidebar is open */
+  margin-left: 250px; /* You can set the width you want for the open state */
+}
 .main-content {
   margin-left: 260px; /* Add margin to accommodate the sidebar width */
   background-color: #fff;

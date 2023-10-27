@@ -2,11 +2,11 @@ import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
 
-const Navbar = () => {
+const Navbar = ({ open, setOpen }) => {
   return (
-    <div className="navbar">
+    <div className={`navbar ${open ? "open" : ""}`}>
       {/* Sidebar */}
-      <Sidebar />
+      <Sidebar open={open} />
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
