@@ -47,7 +47,6 @@ const Hero = ({ open }) => {
           initial="initial"
           animate="animate"
         >
-          CONTENT CULTURE
           <motion.h2 variants={textVariants}>PAWEŁ MIGASIUK</motion.h2>
           <motion.h1 variants={textVariants}>
             Web developer and UI designer
