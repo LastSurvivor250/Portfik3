@@ -49,7 +49,7 @@ const Hero = ({ open }) => {
         >
           <motion.h2 variants={textVariants}>PAUL MIGASIUK</motion.h2>
           <motion.h1 variants={textVariants}>
-            <div className="text-color:yellow ">JS</div> Web-Developer
+            <span style={{ color: "yellow" }}>JS</span> Web-Developer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>About</motion.button>
