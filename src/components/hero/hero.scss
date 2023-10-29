@@ -38,6 +38,7 @@
 
       h1 {
         font-size: 78px;
+        z-index: 1;
 
         @include mobile {
           font-size: 36px;
@@ -69,7 +70,7 @@
     top: 0;
     right: 2;
     left:600px;
-    z-index:0
+    z-index:0;
 
     @include mobile {
       height: 50%;
