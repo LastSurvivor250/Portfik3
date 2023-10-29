@@ -69,6 +69,7 @@
     top: 0;
     right: 2;
     left:600px;
+    z-index:0
 
     @include mobile {
       height: 50%;
