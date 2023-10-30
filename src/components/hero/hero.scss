@@ -10,7 +10,7 @@
   width: 80%; /* You can adjust the width value as needed */
 }
   .wrapper {
-    position:absolute;
+    
     
     max-width: 2066px;
     height: 100%;
@@ -36,10 +36,13 @@
       }
 
       h2 {
+        position:absolute
         font-size: 30px;
         color: #3498db;
         letter-spacing: 10px;
         z-index: 1;
+        left:645px;
+        top:360px;
         
       }
 
