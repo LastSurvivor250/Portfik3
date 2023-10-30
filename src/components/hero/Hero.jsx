@@ -51,10 +51,28 @@ const Hero = ({ open }) => {
           <motion.h1 variants={textVariants}>
             <span style={{ color: "yellow" }}>JS</span> Web-Developer
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>About</motion.button>
-            <motion.button variants={textVariants}>Latest Works</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+          <motion.div variants={textVariants} className="triangle-container">
+            <motion.button
+              variants={textVariants}
+              className="button"
+              id="button1"
+            >
+              About
+            </motion.button>
+            <motion.button
+              variants={textVariants}
+              className="button"
+              id="button2"
+            >
+              Latest Works
+            </motion.button>
+            <motion.button
+              variants={textVariants}
+              className="button"
+              id="button3"
+            >
+              Contact Me
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}

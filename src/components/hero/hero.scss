@@ -40,7 +40,7 @@
         color: rebeccapurple;
         letter-spacing: 10px;
         z-index: 1;
-        top:80ox
+        
       }
 
       h1 {
@@ -52,19 +52,42 @@
         }
       }
 
-      .buttons {
-        button {
-          padding: 20px;
-          border: 2px solid white;
-          border-radius: 10px;
-          background-color: rebeccapurple;
-          color: white;
-          margin-right: 20px;
-          cursor: pointer;
-          font-weight: 600;
-          z-index: 1;
-        }
-      }
+      .triangle-container {
+  position: relative;
+  width: 200px; /* Adjust the size of the triangle container as needed */
+  height: 200px; /* Adjust the size of the triangle container as needed */
+  margin: 100px auto; /* Center the triangle container */
+}
+
+.button {
+  position: absolute;
+  width: 100px; /* Adjust the size of the buttons as needed */
+  height: 40px; /* Adjust the size of the buttons as needed */
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+#button1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#button2 {
+  top: 88px; /* Adjust the vertical position as needed */
+  left: 10%; /* Adjust the horizontal position as needed */
+  transform: rotate(60deg); /* Rotate the button by 60 degrees */
+}
+
+#button3 {
+  top: 88px; /* Adjust the vertical position as needed */
+  left: 90%; /* Adjust the horizontal position as needed */
+  transform: rotate(-60deg); /* Rotate the button by -60 degrees */
+}
 
       img {
         width: 50px;
