@@ -60,18 +60,18 @@
 
       .triangle-container {
   position: absolute;
-  left:400px;
+  left:0px;
   justify-content: center;
-  width: 600px; /* Adjust the size of the triangle container as needed */
-  height: 600px; /* Adjust the size of the triangle container as needed */
+  width: 300px; /* Adjust the size of the triangle container as needed */
+  height: 0px; /* Adjust the size of the triangle container as needed */
   
   /* Center the triangle container */
 }
 
 .button {
   position: absolute;
-  width: 100px; /* Adjust the size of the buttons as needed */
-  height: 40px; /* Adjust the size of the buttons as needed */
+  width: 282px; /* Adjust the size of the buttons as needed */
+  height: 8px; /* Adjust the size of the buttons as needed */
   background-color: #3498db; /* Button background color */
   color: #fff; /* Button text color */
   border: none;
@@ -81,20 +81,20 @@
 }
 
 #button1 {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 100px;
+  left: 20%;
+  
 }
 
 #button2 {
-  top: 188px; /* Adjust the vertical position as needed */
-  left: 10%; /* Adjust the horizontal position as needed */
+  top: 131px; /* Adjust the vertical position as needed */
+  left: 20%; /* Adjust the horizontal position as needed */
   transform: rotate(60deg); /* Rotate the button by 60 degrees */
 }
 
 #button3 {
-  top: 188px; /* Adjust the vertical position as needed */
-  left: 90%; /* Adjust the horizontal position as needed */
+  top: 162px; /* Adjust the vertical position as needed */
+  left: 20%; /* Adjust the horizontal position as needed */
   transform: rotate(-60deg); /* Rotate the button by -60 degrees */
 }
 
