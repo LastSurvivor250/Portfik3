@@ -130,10 +130,10 @@
   .imageContainer2 {
     height: 84%;
     position: absolute;
-    top: 10px;
+    top: 100px;
     right: 200px;
     left:617px;
-    z-index:-1;
+    z-index:0;
 
     @include mobile {
       height: 50%;
