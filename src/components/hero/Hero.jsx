@@ -91,10 +91,7 @@ const Hero = ({ open }) => {
         Writer Content Creator Influencer
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero2.png" alt="" />
-      </div>
-      <div className="imageContainer2">
-        <img src="/hero3.png" alt="" />
+        <img src="/hero4.png" alt="" />
       </div>
     </div>
   );
