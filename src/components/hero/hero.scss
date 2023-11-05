@@ -127,6 +127,28 @@
     
     }
   }
+  .imageContainer2 {
+    height: 84%;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    left:617px;
+    z-index:0;
+
+    @include mobile {
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    
+    }
+  }
 
   .slidingTextContainer {
     position: absolute;
