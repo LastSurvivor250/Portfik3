@@ -37,20 +37,20 @@
 
       h2 {
         position:absolute;
-        font-size: 10px;
+        font-size: 40px;
         color: #3498db;
         letter-spacing: 0px;
         z-index: 1;
-        left:759px;
+        left:59px;
         top:367px;
         
       }
 
       h1 {
         position:absolute;
-        left:728px;
-        bottom:215px;
-        font-size: 12px;
+        left:58px;
+        bottom:180px;
+        font-size: 32px;
         z-index: 1;
 
         @include mobile {
