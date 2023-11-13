@@ -26,6 +26,7 @@
       justify-content: center;
       gap: 0px;
       z-index: 1;
+      position:static;
 
       @include mobile {
         height: 50%;
