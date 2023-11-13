@@ -59,15 +59,15 @@ const Hero = ({ open }) => {
             </motion.span>{" "}
             Web-Developer
           </motion.h1>
+          <div className="imageContainer">
+            <img src="/hero4.png" alt="" />
+          </div>
           <motion.div variants={textVariants} className="triangle-container">
             <motion.button
               variants={textVariants}
               className="button"
               id="button1"
             >
-              <div className="imageContainer">
-                <img src="/hero4.png" alt="" />
-              </div>
               About
             </motion.button>
             <motion.button
