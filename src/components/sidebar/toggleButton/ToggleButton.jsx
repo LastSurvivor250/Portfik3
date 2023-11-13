@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 const ToggleButton = ({ open, setOpen }) => {
   return (
     <button onClick={() => setOpen((prev) => !prev)}>
-      <svg width="15" height="15" viewBox="0 0 23 23">
+      <svg width="15" height="15" viewBox="0 0 15 15">
         <motion.path
-          strokeWidth="2"
+          strokeWidth="3"
           stroke="black"
           strokeLinecap="round"
           variants={{
@@ -17,7 +17,7 @@ const ToggleButton = ({ open, setOpen }) => {
           animate={open ? "open" : "closed"} // Animate based on the 'open' prop
         />
         <motion.path
-          strokeWidth="4"
+          strokeWidth="3"
           stroke="black"
           strokeLinecap="round"
           d="M 2 9.423 L 20 9.423"
@@ -25,7 +25,7 @@ const ToggleButton = ({ open, setOpen }) => {
           animate={open ? "closed" : "open"} // Animate based on the 'open' prop
         />
         <motion.path
-          strokeWidth="5"
+          strokeWidth="3"
           stroke="black"
           strokeLinecap="round"
           variants={{
