@@ -4,7 +4,7 @@
   height: calc(100vh - 100px);
   overflow: hidden;
   background: linear-gradient(180deg,#0c0c1d, #3498db );
-  position: relative;
+  position:relative;
 .open .hero {
   /* Adjust the width of OtherComponent when the sidebar is open */
   width: 40%; /* You can adjust the width value as needed */
@@ -62,17 +62,17 @@
   position: absolute;
   left:0px;
   justify-content: center;
-  width: 3320px; /* Adjust the size of the triangle container as needed */
-  height: 49px; /* Adjust the size of the triangle container as needed */
+  width: 3290px; /* Adjust the size of the triangle container as needed */
+  height: 120px; /* Adjust the size of the triangle container as needed */
   
   /* Center the triangle container */
 }
 
 .button {
   position: absolute;
-  width: 282px; /* Adjust the size of the buttons as needed */
-  height: 8px; /* Adjust the size of the buttons as needed */
-  background-color: #3498db; /* Button background color */
+  width: 357px; /* Adjust the size of the buttons as needed */
+  height: 5px; /* Adjust the size of the buttons as needed */
+  background-color: #807337; /* Button background color */
   color: #fff; /* Button text color */
   border: none;
   text-align: center;
@@ -82,19 +82,19 @@
 
 #button1 {
   top: 100px;
-  left: 20%;
+  left: 19.2%;
   
 }
 
 #button2 {
   top: 131px; /* Adjust the vertical position as needed */
-  left: 20%; /* Adjust the horizontal position as needed */
+  left: 19.2%; /* Adjust the horizontal position as needed */
   transform: rotate(60deg); /* Rotate the button by 60 degrees */
 }
 
 #button3 {
   top: 162px; /* Adjust the vertical position as needed */
-  left: 20%; /* Adjust the horizontal position as needed */
+  left: 19.2%; /* Adjust the horizontal position as needed */
   transform: rotate(-60deg); /* Rotate the button by -60 degrees */
 }
 
@@ -106,13 +106,11 @@
   }
 
   .imageContainer {
-    height: 54%;
+   
     position: absolute;
-    top: 25px;
-    right: 2;
-    left:617px;
     z-index:0;
-
+    top:14px;
+    left:625px;
     @include mobile {
       height: 50%;
       width: 100%;
@@ -122,7 +120,7 @@
 
     img{
       
-      height: 120%;
+      
       object-fit: cover;
     
     }
