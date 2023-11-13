@@ -65,6 +65,9 @@ const Hero = ({ open }) => {
               className="button"
               id="button1"
             >
+              <div className="imageContainer">
+                <img src="/hero4.png" alt="" />
+              </div>
               About
             </motion.button>
             <motion.button
@@ -102,7 +105,7 @@ const Hero = ({ open }) => {
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+        WEB-DEV PORTFOLIO
       </motion.div>
       <div className="imageContainer">
         <img src="/hero4.png" alt="" />
