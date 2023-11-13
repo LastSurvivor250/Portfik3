@@ -6,7 +6,7 @@ const ToggleButton = ({ open, setOpen }) => {
     <button onClick={() => setOpen((prev) => !prev)}>
       <svg width="15" height="15" viewBox="0 0 23 23">
         <motion.path
-          strokeWidth="3"
+          strokeWidth="2"
           stroke="black"
           strokeLinecap="round"
           variants={{
@@ -17,7 +17,7 @@ const ToggleButton = ({ open, setOpen }) => {
           animate={open ? "open" : "closed"} // Animate based on the 'open' prop
         />
         <motion.path
-          strokeWidth="3"
+          strokeWidth="4"
           stroke="black"
           strokeLinecap="round"
           d="M 2 9.423 L 20 9.423"
@@ -25,7 +25,7 @@ const ToggleButton = ({ open, setOpen }) => {
           animate={open ? "closed" : "open"} // Animate based on the 'open' prop
         />
         <motion.path
-          strokeWidth="3"
+          strokeWidth="5"
           stroke="black"
           strokeLinecap="round"
           variants={{
