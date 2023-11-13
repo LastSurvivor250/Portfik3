@@ -14,6 +14,7 @@ const textVariants = {
       staggerChildren: 0.1,
     },
   },
+  animateFast: { opacity: 1, x: 0, transition: { duration: 3 } },
   scrollButton: {
     opacity: 0,
     y: 10,
@@ -51,7 +52,7 @@ const Hero = ({ open }) => {
           <motion.h1
             variants={textVariants}
             initial="initial"
-            animate="animate"
+            animate="animateFast "
           >
             <span style={{ color: "yellow" }}>JS</span> Web-Developer
           </motion.h1>
