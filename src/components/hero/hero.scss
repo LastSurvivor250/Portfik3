@@ -3,7 +3,7 @@
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg,#0c0c1d, #3498db );
+  background: linear-gradient(180deg,#0c0c1d, #807337 );
   position:relative;
 .open .hero {
   /* Adjust the width of OtherComponent when the sidebar is open */
@@ -63,7 +63,7 @@
   left:0px;
   justify-content: center;
   width: 3290px; /* Adjust the size of the triangle container as needed */
-  height: 120px; /* Adjust the size of the triangle container as needed */
+  height: 57px; /* Adjust the size of the triangle container as needed */
   
   /* Center the triangle container */
 }
