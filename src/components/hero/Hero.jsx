@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 const textVariants = {
   initial: {
-    x: -500,
+    y: -500,
     opacity: 0,
   },
   animate: {
-    x: 0,
+    y: 0,
     opacity: 1,
     transition: {
-      duration: 10,
+      duration: 5,
       staggerChildren: 0.1,
     },
   },
@@ -18,7 +18,7 @@ const textVariants = {
     opacity: 0,
     y: 10,
     transition: {
-      duration: 4,
+      duration: 6,
       repeat: Infinity,
     },
   },
