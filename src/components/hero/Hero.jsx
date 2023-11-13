@@ -14,7 +14,7 @@ const textVariants = {
       staggerChildren: 0.1,
     },
   },
-  animateFast: { opacity: 1, x: 0, transition: { duration: 3 } },
+  animateFast: { opacity: 1, y: 0, transition: { duration: 3 } },
   scrollButton: {
     opacity: 0,
     y: 10,
