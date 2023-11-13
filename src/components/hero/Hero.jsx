@@ -10,16 +10,16 @@ const textVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 5,
+      duration: 3,
       staggerChildren: 0.1,
     },
   },
-  animateFast: { opacity: 1, y: 0, transition: { duration: 3 } },
+  animateFast: { opacity: 1, y: 0, transition: { duration: 6 } },
   scrollButton: {
     opacity: 0,
     y: 10,
     transition: {
-      duration: 6,
+      duration: 3,
       repeat: Infinity,
     },
   },
