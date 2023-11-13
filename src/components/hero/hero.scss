@@ -3,7 +3,7 @@
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg,#0c0c1d, #807337 );
+  background: linear-gradient(180deg,#0c0c1d, #083da7 );
   position:relative;
 .open .hero {
   /* Adjust the width of OtherComponent when the sidebar is open */
@@ -64,6 +64,7 @@
     z-index:0;
     top:22px;
     left:625px;
+
     @include mobile {
       height: 50%;
       width: 100%;
@@ -128,48 +129,7 @@
     }
   }
 
-  .imageContainer {
-   
-    position: absolute;
-    z-index:0;
-    top:22px;
-    left:625px;
-    @include mobile {
-      height: 50%;
-      width: 100%;
-      top: unset;
-      bottom: 0;
-    }
 
-    img{
-      
-      
-      object-fit: cover;
-    
-    }
-  }
-  .imageContainer2 {
-    height: 84%;
-    position: absolute;
-    top: 100px;
-    
-    left:784px;
-    z-index:0;
-
-    @include mobile {
-      height: 50%;
-      width: 100%;
-      top: unset;
-      bottom: 0;
-    }
-
-    img{
-      
-      height: 100%;
-      object-fit: cover;
-    
-    }
-  }
 
   .slidingTextContainer {
     position: absolute;
