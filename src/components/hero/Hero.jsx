@@ -107,9 +107,6 @@ const Hero = ({ open }) => {
       >
         WEB-DEV PORTFOLIO
       </motion.div>
-      <div className="imageContainer">
-        <img src="/hero4.png" alt="" />
-      </div>
     </div>
   );
 };
