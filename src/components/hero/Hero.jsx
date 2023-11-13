@@ -32,7 +32,7 @@ const sliderVariants = {
     transition: {
       repeat: Infinity,
       repeatType: "mirror",
-      duration: 10,
+      duration: 60,
     },
   },
 };
@@ -74,6 +74,12 @@ const Hero = ({ open }) => {
               Contact Me
             </motion.button>
           </motion.div>
+          <motion.img
+            variants={textVariants}
+            animate="scrollButton"
+            src="/scroll.png"
+            alt=""
+          />
           <motion.img
             variants={textVariants}
             animate="scrollButton"
