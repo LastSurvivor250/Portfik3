@@ -10,7 +10,7 @@ const textVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 3,
+      duration: 1,
       staggerChildren: 0.1,
     },
   },
@@ -85,18 +85,6 @@ const Hero = ({ open }) => {
               Contact Me
             </motion.button>
           </motion.div>
-          <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
-          />
-          <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
-          />
         </motion.div>
       </div>
       <motion.div

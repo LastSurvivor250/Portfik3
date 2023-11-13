@@ -58,6 +58,25 @@
           font-size: 36px;
         }
       }
+       .imageContainer {
+   
+    position: absolute;
+    z-index:0;
+    top:22px;
+    left:625px;
+    @include mobile {
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
+
+    img{
+      
+      
+      object-fit: cover;
+    
+    }
 
       .triangle-container {
   position: absolute;
