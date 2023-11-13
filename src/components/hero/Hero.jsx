@@ -49,12 +49,15 @@ const Hero = ({ open }) => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>PAUL MIGASIUK</motion.h2>
-          <motion.h1
-            variants={textVariants}
-            initial="initial"
-            animate="animateFast "
-          >
-            <span style={{ color: "yellow" }}>JS</span> Web-Developer
+          <motion.h1 variants={textVariants} animate="animateFast ">
+            <motion.span
+              style={{ color: "yellow" }}
+              variants={textVariants}
+              animate="animateFast "
+            >
+              JS
+            </motion.span>{" "}
+            Web-Developer
           </motion.h1>
           <motion.div variants={textVariants} className="triangle-container">
             <motion.button
