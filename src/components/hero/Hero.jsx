@@ -10,7 +10,7 @@ const textVariants = {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 1,
+      duration: 2,
       staggerChildren: 0.1,
     },
   },
@@ -18,7 +18,7 @@ const textVariants = {
     opacity: 0,
     y: 10,
     transition: {
-      duration: 2,
+      duration: 4,
       repeat: Infinity,
     },
   },
@@ -32,7 +32,7 @@ const sliderVariants = {
     transition: {
       repeat: Infinity,
       repeatType: "mirror",
-      duration: 20,
+      duration: 10,
     },
   },
 };
