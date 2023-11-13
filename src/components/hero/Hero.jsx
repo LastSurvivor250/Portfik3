@@ -10,7 +10,7 @@ const textVariants = {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 2,
+      duration: 10,
       staggerChildren: 0.1,
     },
   },
