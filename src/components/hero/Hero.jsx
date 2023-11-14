@@ -86,6 +86,51 @@ const Hero = ({ open }) => {
             </motion.button>
           </motion.div>
         </motion.div>
+
+        <motion.div
+          className="textContainer"
+          variants={textVariants}
+          initial="initial"
+          animate="animate"
+        >
+          <motion.h2 variants={textVariants}>PAUL MIGASIUK</motion.h2>
+          <motion.h1 variants={textVariants} animate="animateFast ">
+            <motion.span
+              style={{ color: "yellow" }}
+              variants={textVariants}
+              animate="animateFast "
+            >
+              JS
+            </motion.span>{" "}
+            Web-Developer
+          </motion.h1>
+          <div className="imageContainer">
+            <img src="/hero4.png" alt="" />
+          </div>
+          <motion.div variants={textVariants} className="triangle-container">
+            <motion.button
+              variants={textVariants}
+              className="button"
+              id="button1"
+            >
+              About
+            </motion.button>
+            <motion.button
+              variants={textVariants}
+              className="button"
+              id="button2"
+            >
+              Latest Works
+            </motion.button>
+            <motion.button
+              variants={textVariants}
+              className="button"
+              id="button3"
+            >
+              Contact Me
+            </motion.button>
+          </motion.div>
+        </motion.div>
       </div>
       <motion.div
         className="slidingTextContainer"
