@@ -1,7 +1,7 @@
 @import "../../app.scss";
 
 .hero {
-  height: calc(100vh - 100px);
+  height: 610px;
   overflow: hidden;
   background: linear-gradient(180deg,#ff5b5b,#041e53 );
   position:relative;
@@ -13,7 +13,7 @@
     
     
     max-width: 2066px;
-    height: 100%;
+    height: 117%;
     margin: auto;
     
     z-index: 1;
@@ -78,7 +78,7 @@
             
             
             object-fit: cover;
-            width:360px;
+            width:420px;
           }
         }
 
@@ -94,7 +94,7 @@
 
 .button {
   position: absolute;
-  width: 357px; /* Adjust the size of the buttons as needed */
+  width: 423px; /* Adjust the size of the buttons as needed */
   height: 5px; /* Adjust the size of the buttons as needed */
   background-color: #807337; /* Button background color */
   color: #fff; /* Button text color */
@@ -106,20 +106,20 @@
 
 #button1 {
   top: 100px;
-  left: 19.2%;
+  left: 18.9%;
   
 }
 
 #button2 {
   top: 131px; /* Adjust the vertical position as needed */
-  left: 19.2%; /* Adjust the horizontal position as needed */
+  left: 19.9%; /* Adjust the horizontal position as needed */
   transform: rotate(60deg); /* Rotate the button by 60 degrees */
   margin-top:6px;
 }
 
 #button3 {
   top: 162px; /* Adjust the vertical position as needed */
-  left: 19.2%; /* Adjust the horizontal position as needed */
+  left: 18.9%; /* Adjust the horizontal position as needed */
   transform: rotate(-60deg); /* Rotate the button by -60 degrees */
   margin-top:12px;
 }
