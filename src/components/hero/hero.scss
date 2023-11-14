@@ -60,27 +60,27 @@
       }
        .imageContainer {
    
-    position: absolute;
-    z-index:0;
-    top:22px;
-    left:625px;
+          position: absolute;
+          z-index:0;
+          top:22px;
+          left:625px;
 
 
-    @include mobile {
-      height: 50%;
-      width: 360px;
-      
-      top: unset;
-      bottom: 0;
-    }
+          @include mobile {
+            height: 50%;
+            width: 360px;
+            
+            top: unset;
+            bottom: 0;
+          }
 
-    img{
-      
-      
-      object-fit: cover;
-    
-    }
-  }
+          img{
+            
+            
+            object-fit: cover;
+            width:360px;
+          }
+        }
 
       .triangle-container {
   position: absolute;
