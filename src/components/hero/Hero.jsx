@@ -48,16 +48,6 @@ const Hero = ({ open }) => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants} animate="animateFast ">
-            <motion.span
-              style={{ color: "yellow" }}
-              variants={textVariants}
-              animate="animateFast "
-            >
-              JS
-            </motion.span>{" "}
-            Web-Developer
-          </motion.h2>
           <div className="imageContainer">
             <img src="/hero4.png" alt="" />
           </div>
@@ -86,6 +76,16 @@ const Hero = ({ open }) => {
           </motion.div>
           <div className="hero2">
             <motion.h2 variants={textVariants}>Content Creation</motion.h2>
+            <motion.h2 variants={textVariants} animate="animateFast ">
+              <motion.span
+                style={{ color: "yellow" }}
+                variants={textVariants}
+                animate="animateFast "
+              >
+                JS
+              </motion.span>{" "}
+              Web-Developer
+            </motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
               We Help Your Business Explore The Depths of Modern Internet and
               Find Most Effective Ways to Reach Your Potential Client in Both
