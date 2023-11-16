@@ -85,14 +85,7 @@ const Hero = ({ open }) => {
               Contact Me
             </motion.button>
           </motion.div>
-        </motion.div>
 
-        <motion.div
-          className="textContainer"
-          variants={textVariants}
-          initial="initial"
-          animate="animate"
-        >
           <motion.h2 variants={textVariants}>PAUL MIGASIUK</motion.h2>
           <motion.h1 variants={textVariants} animate="animateFast ">
             <motion.span
