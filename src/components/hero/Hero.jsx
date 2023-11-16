@@ -91,29 +91,6 @@ const Hero = ({ open }) => {
               Find Most Effective Ways to Reach Your Potential Client in Both
               Conventional and Unconventional Ways.
             </motion.h1>
-            <motion.div variants={textVariants} className="triangle-container">
-              <motion.button
-                variants={textVariants}
-                className="button"
-                id="button1"
-              >
-                About
-              </motion.button>
-              <motion.button
-                variants={textVariants}
-                className="button"
-                id="button2"
-              >
-                Latest Works
-              </motion.button>
-              <motion.button
-                variants={textVariants}
-                className="button"
-                id="button3"
-              >
-                Contact Me
-              </motion.button>
-            </motion.div>
           </div>
         </motion.div>
       </div>
