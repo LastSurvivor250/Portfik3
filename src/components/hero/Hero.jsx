@@ -48,8 +48,7 @@ const Hero = ({ open }) => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>PAUL MIGASIUK</motion.h2>
-          <motion.h1 variants={textVariants} animate="animateFast ">
+          <motion.h2 variants={textVariants} animate="animateFast ">
             <motion.span
               style={{ color: "yellow" }}
               variants={textVariants}
@@ -58,7 +57,7 @@ const Hero = ({ open }) => {
               JS
             </motion.span>{" "}
             Web-Developer
-          </motion.h1>
+          </motion.h2>
           <div className="imageContainer">
             <img src="/hero4.png" alt="" />
           </div>
@@ -86,7 +85,7 @@ const Hero = ({ open }) => {
             </motion.button>
           </motion.div>
           <div className="hero2">
-            <motion.h2 variants={textVariants}>PAUL MIGASIUK</motion.h2>
+            <motion.h2 variants={textVariants}>Content Creator</motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
               <motion.span
                 style={{ color: "yellow" }}
