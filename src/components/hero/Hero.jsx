@@ -98,7 +98,7 @@ const Hero = ({ open }) => {
               Web-Developer
             </motion.h1>
             <div className="imageContainer">
-              <img src="/hero4.png" alt="" />
+              <img src="/hero5.png" alt="" />
             </div>
             <motion.div variants={textVariants} className="triangle-container">
               <motion.button
