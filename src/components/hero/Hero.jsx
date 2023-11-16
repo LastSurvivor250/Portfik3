@@ -87,10 +87,12 @@ const Hero = ({ open }) => {
           <div className="hero2">
             <motion.h2 variants={textVariants}>Content Creation</motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
-             <p>
-              We Help Your Business Explore The Depths of Modern Internet and Find Most Effective Ways
-              to Reach Your Potential Client in Both Conventional and Unconventional Ways.
-             </p>
+              <p>
+                We Help Your Business Explore The Depths of Modern Internet and
+                Find Most Effective Ways to Reach Your Potential Client in Both
+                Conventional and Unconventional Ways.
+              </p>
+            </motion.h1>
             <motion.div variants={textVariants} className="triangle-container">
               <motion.button
                 variants={textVariants}
