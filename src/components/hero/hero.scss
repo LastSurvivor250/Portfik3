@@ -77,8 +77,8 @@
    
           position: absolute;
           z-index:0;
-          top:-162px;
-          left:810px;
+          top:-150px;
+          left:860px;
 
 
           @include mobile {
@@ -93,7 +93,7 @@
             
             
             object-fit: cover;
-            width:800px;
+            width:630px;
           }
         }
 
