@@ -63,11 +63,11 @@
         position:absolute;
         
         max-height:300px;
-        bottom:-424px;
-        font-size: 22px;
-        width:224px;
+        bottom:-273px;
+        font-size: 36px;
+        width:755px;
         z-index: 1;
-        left:166px;
+        left:4px;
 
         @include mobile {
           font-size: 36px;
@@ -78,7 +78,7 @@
           position: absolute;
           z-index:0;
           top:-302px;
-          left:763px;
+          left:842px;
 
 
           @include mobile {
@@ -99,11 +99,11 @@
 
       .triangle-container {
   position: absolute;
-  left:-630px;
+  left:-580px;
   justify-content: center;
   width: 3290px; /* Adjust the size of the triangle container as needed */
-  height: 57px; /* Adjust the size of the triangle container as needed */
-  top:344px;
+  height: 101px; /* Adjust the size of the triangle container as needed */
+  top:413px;
   
   /* Center the triangle container */
 }
