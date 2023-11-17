@@ -38,10 +38,10 @@
 
       h2 {
         
-        font-size: 52px;
+        font-size: 65px;
         color: #ffffff;
         max-width: fit-content;
-        letter-spacing: 7px;
+        letter-spacing: 0px;
         z-index: 1;
         
         
@@ -63,9 +63,9 @@
         position:absolute;
         
         max-height:300px;
-        bottom:-273px;
-        font-size: 36px;
-        width:755px;
+        bottom:-80px;
+        font-size: 20px;
+        width:623px;
         z-index: 1;
         left:61px;
 
@@ -99,11 +99,11 @@
 
       .triangle-container {
   position: absolute;
-  left:-911px;
+  left:-1012px;
   justify-content: center;
-  width: 3290px; /* Adjust the size of the triangle container as needed */
+  width: 3270px; /* Adjust the size of the triangle container as needed */
   height: 101px; /* Adjust the size of the triangle container as needed */
-  top:413px;
+  top:223px;
   
   /* Center the triangle container */
 }
