@@ -110,7 +110,7 @@
 .button {
   position: absolute;
   width: 150px; /* Adjust the size of the buttons as needed */
-  height: 5px; /* Adjust the size of the buttons as needed */
+  height: 7px; /* Adjust the size of the buttons as needed */
   background-color: #00bb53; /* Button background color */
   color: #fff; /* Button text color */
   border: none;
@@ -120,21 +120,21 @@
 }
 
 #button1 {
-  top: 100px;
-  left: 18.9%;
+  top: 68px;
+  left: 32.5%;
   
 }
 
 #button2 {
-  top: 131px; /* Adjust the vertical position as needed */
-  left: 18.9%; /* Adjust the horizontal position as needed */
+  top: 63px; /* Adjust the vertical position as needed */
+  left: 38.9%; /* Adjust the horizontal position as needed */
   transform: rotate(60deg); /* Rotate the button by 60 degrees */
   margin-top:6px;
 }
 
 #button3 {
-  top: 162px; /* Adjust the vertical position as needed */
-  left: 18.9%; /* Adjust the horizontal position as needed */
+  top: 57px; /* Adjust the vertical position as needed */
+  left: 44.9%; /* Adjust the horizontal position as needed */
   transform: rotate(-60deg); /* Rotate the button by -60 degrees */
   margin-top:12px;
 }
