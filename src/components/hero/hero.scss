@@ -38,10 +38,10 @@
 
       h2 {
         
-        font-size: 65px;
-        color: #ffffff;
+        font-size: 79px;
+        color: #FFA;
         max-width: fit-content;
-        letter-spacing: 0px;
+        letter-spacing: -3px;
         z-index: 1;
         
         
@@ -63,9 +63,11 @@
         position:absolute;
         
         max-height:300px;
-        bottom:-80px;
+        bottom:-106px;
         font-size: 20px;
-        width:623px;
+        width:781px;
+        line-height:22px;
+        letter-spacing:11px;
         z-index: 1;
         left:12px;
 
@@ -77,8 +79,8 @@
    
           position: absolute;
           z-index:0;
-          top:-150px;
-          left:860px;
+          top:-26px;
+          left:981px;
 
 
           @include mobile {
@@ -93,7 +95,7 @@
             
             
             object-fit: cover;
-            width:630px;
+            width:401px;
           }
         }
 
