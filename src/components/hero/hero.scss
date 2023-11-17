@@ -39,7 +39,7 @@
       h2 {
         position:absolute;
         font-size: 64px;
-        color: #041e53;
+        color: #ffffff;
         letter-spacing: 0px;
         z-index: 1;
         left:88px;
@@ -48,7 +48,7 @@
       }
       .hero2 {
         position:absolute;
-        left:536px;
+        left:608px;
         top:-31px;
 
         h2 {
@@ -75,8 +75,8 @@
    
           position: absolute;
           z-index:0;
-          top:85px;
-          left:-47px;
+          top:0px;
+          left:81px;
 
 
           @include mobile {
@@ -91,7 +91,7 @@
             
             
             object-fit: cover;
-            width:420px;
+            width:513px;
           }
         }
 
