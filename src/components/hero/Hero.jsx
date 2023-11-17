@@ -75,7 +75,6 @@ const Hero = ({ open }) => {
             </motion.button>
           </motion.div>
           <div className="hero2">
-            <motion.h2 variants={textVariants}>Content Creation</motion.h2>
             <motion.h2 variants={textVariants} animate="animateFast ">
               <motion.span
                 style={{ color: "yellow" }}
@@ -84,7 +83,7 @@ const Hero = ({ open }) => {
               >
                 JS
               </motion.span>{" "}
-              Web-Developer
+              Web-Developer For Hire
             </motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
               We Help Your Business Explore The Depths of Modern Internet and
