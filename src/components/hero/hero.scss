@@ -26,7 +26,7 @@
       justify-content: center;
       gap: 0px;
       z-index: 1;
-      position:static;
+      
 
       @include mobile {
         height: 50%;
@@ -37,20 +37,20 @@
       }
 
       h2 {
-        position:absolute;
+        
         font-size: 96px;
         color: #ffffff;
         max-width: fit-content;
         letter-spacing: 7px;
         z-index: 1;
-        left:158px;
+        
         
         
       }
       .hero2 {
         position:absolute;
-        left:643px;
-        top:-31px;
+        left:44px;
+        top:-27px;
 
         h2 {
           width:max-content;
