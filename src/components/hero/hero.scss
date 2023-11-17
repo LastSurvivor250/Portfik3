@@ -38,7 +38,7 @@
 
       h2 {
         
-        font-size: 96px;
+        font-size: 52px;
         color: #ffffff;
         max-width: fit-content;
         letter-spacing: 7px;
@@ -49,8 +49,8 @@
       }
       .hero2 {
         position:absolute;
-        left:44px;
-        top:-27px;
+        left:40px;
+        top:50px;
 
         h2 {
           width:max-content;
@@ -78,7 +78,7 @@
           position: absolute;
           z-index:0;
           top:-162px;
-          left:842px;
+          left:810px;
 
 
           @include mobile {
