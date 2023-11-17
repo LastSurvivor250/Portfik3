@@ -38,13 +38,13 @@
 
       h2 {
         position:absolute;
-        font-size: 72px;
+        font-size: 64px;
         color: #ffffff;
         max-width: fit-content;
         letter-spacing: 0px;
         z-index: 1;
-        left:-6px;
-        top:130px
+        left:92px;
+        
         
       }
       .hero2 {
@@ -77,7 +77,7 @@
           position: absolute;
           z-index:0;
           top:-147px;
-          left:275px;
+          left:334px;
 
 
           @include mobile {
@@ -98,11 +98,11 @@
 
       .triangle-container {
   position: absolute;
-  left:-423px;
+  left:-630px;
   justify-content: center;
   width: 3290px; /* Adjust the size of the triangle container as needed */
   height: 57px; /* Adjust the size of the triangle container as needed */
-  top:360px;
+  top:344px;
   
   /* Center the triangle container */
 }
