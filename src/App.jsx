@@ -17,7 +17,6 @@ const App = () => {
       <section id="Homepage">
         <Navbar open={open} setOpen={setOpen} />
         <Hero open={open} />
-        <Hero2 open={open} />
       </section>
       <section id="Homepage">
         <Hero2 open={open} />
