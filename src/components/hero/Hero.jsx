@@ -74,7 +74,7 @@ const Hero = ({ open }) => {
               Contact Me
             </motion.button>
           </motion.div>
-          <div className="hero2">
+          <div className="hero">
             <motion.h2 variants={textVariants} animate="animateFast ">
               <motion.span
                 style={{ color: "yellow" }}
