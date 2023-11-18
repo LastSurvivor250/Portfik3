@@ -20,8 +20,8 @@
     z-index: 1;
 
     .textContainer {
-      width: 100%;
-      height: 110%;
+      width: 90%;
+      height: 50%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -38,7 +38,7 @@
       }
 
       h1 {
-        position:absolute;
+        
         
         max-height:300px;
         bottom:-120px;
@@ -67,8 +67,8 @@
         
       }
       .hero2 {
-        position:absolute;
-        left:40px;
+        
+        
         top:50px;
 
         h2 {
@@ -82,12 +82,7 @@
        
 
       .triangle-container {
-  position: absolute;
-  left:-1012px;
-  justify-content: center;
-  width: 3270px; /* Adjust the size of the triangle container as needed */
-  height: 101px; /* Adjust the size of the triangle container as needed */
-  top:234px;
+  
   
   /* Center the triangle container */
 }
