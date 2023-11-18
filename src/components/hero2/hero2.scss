@@ -81,13 +81,13 @@
       
        
 
-      .triangle-container {
+      .triangle-container2 {
   
   
   /* Center the triangle container */
 }
 
-.button {
+.buttonx {
   position: absolute;
   width: 180px;
   /*Adjustthesizeofthebuttonsasneeded*/height: 40px;
@@ -104,20 +104,20 @@
   -o-border-radius: 25px;
 }
 
-#button1 {
+#buttonx1 {
   top: 68px;
   
   
 }
 
-#button2 {
+#buttonx2 {
   top: 68px; /* Adjust the vertical position as needed */
   left: 26.9%; /* Adjust the horizontal position as needed */
   transform: rotate(60deg); /* Rotate the button by 60 degrees */
   
 }
 
-#button3 {
+#buttonx3 {
   top: 68px; /* Adjust the vertical position as needed */
   left: 44.9%; /* Adjust the horizontal position as needed */
   transform: rotate(-60deg); /* Rotate the button by -60 degrees */
