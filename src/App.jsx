@@ -19,6 +19,9 @@ const App = () => {
         <Hero open={open} />
         <Hero2 open={open} />
       </section>
+      <section id="Homepage">
+        <Hero2 open={open} />
+      </section>
       <section id="Services">
         <Parallax type="services" />
       </section>
