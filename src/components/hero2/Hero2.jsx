@@ -40,7 +40,7 @@ const sliderVariants = {
 
 const Hero2 = ({ open }) => {
   return (
-    <div className={`hero ${open ? "open" : ""}`}>
+    <div className={`hero2 ${open ? "open" : ""}`}>
       <div className="wrapper">
         <motion.div
           className="textContainer"
