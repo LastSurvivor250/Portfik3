@@ -89,10 +89,11 @@ const Hero2 = ({ open }) => {
             </motion.h1>
           </div>
         </motion.div>
+        <div className="imageContainer">
+          <img src="/hero4.png" alt="" />
+        </div>
       </div>
-      <div className="imageContainer">
-        <img src="/hero4.png" alt="" />
-      </div>
+
       <motion.div
         className="slidingTextContainer"
         variants={sliderVariants}
