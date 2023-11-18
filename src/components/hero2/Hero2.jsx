@@ -48,9 +48,6 @@ const Hero = ({ open }) => {
           initial="initial"
           animate="animate"
         >
-          <div className="imageContainer">
-            <img src="/hero4.png" alt="" />
-          </div>
           <motion.div variants={textVariants} className="triangle-container">
             <motion.button
               variants={textVariants}
@@ -93,7 +90,9 @@ const Hero = ({ open }) => {
           </div>
         </motion.div>
       </div>
-
+      <div className="imageContainer">
+        <img src="/hero4.png" alt="" />
+      </div>
       <motion.div
         className="slidingTextContainer"
         variants={sliderVariants}
