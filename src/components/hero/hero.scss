@@ -63,11 +63,12 @@
         position:absolute;
         
         max-height:300px;
-        bottom:-106px;
+        bottom:-93px;
+        font:inherit;
         font-size: 20px;
         width:781px;
-        line-height:22px;
-        letter-spacing:11px;
+        line-height:19px;
+        letter-spacing:3px;
         z-index: 1;
         left:12px;
 
@@ -79,7 +80,7 @@
    
           position: absolute;
           z-index:0;
-          top:-26px;
+          top:-40px;
           left:981px;
 
 
@@ -95,7 +96,7 @@
             
             
             object-fit: cover;
-            width:401px;
+            width:450px;
           }
         }
 
