@@ -38,7 +38,7 @@
 
       h2 {
         
-        font-size: 79px;
+        font-size: 56px;
         color: #FFA;
         max-width: fit-content;
         letter-spacing: -3px;
@@ -63,11 +63,11 @@
         position:absolute;
         
         max-height:300px;
-        bottom:-93px;
+        bottom:-120px;
         font:inherit;
-        font-size: 20px;
-        width:781px;
-        line-height:19px;
+        font-size: 19px;
+        width:581px;
+        line-height:21px;
         letter-spacing:3px;
         z-index: 1;
         left:12px;
@@ -80,8 +80,8 @@
    
           position: absolute;
           z-index:0;
-          top:-40px;
-          left:981px;
+          top:-76px;
+          left:853px;
 
 
           @include mobile {
@@ -96,7 +96,7 @@
             
             
             object-fit: cover;
-            width:450px;
+            width:484px;
           }
         }
 
@@ -106,7 +106,7 @@
   justify-content: center;
   width: 3270px; /* Adjust the size of the triangle container as needed */
   height: 101px; /* Adjust the size of the triangle container as needed */
-  top:223px;
+  top:234px;
   
   /* Center the triangle container */
 }
