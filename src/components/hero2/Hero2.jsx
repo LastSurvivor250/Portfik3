@@ -38,7 +38,7 @@ const sliderVariants = {
   },
 };
 
-const Hero = ({ open }) => {
+const Hero2 = ({ open }) => {
   return (
     <div className={`hero ${open ? "open" : ""}`}>
       <div className="wrapper">
@@ -105,4 +105,4 @@ const Hero = ({ open }) => {
   );
 };
 
-export default Hero;
+export default Hero2;
