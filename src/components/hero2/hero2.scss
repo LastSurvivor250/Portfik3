@@ -3,7 +3,7 @@
 .hero2 {
   
   overflow: hidden;
-  background: linear-gradient(132deg,#21c469,#041e53 );
+  background: linear-gradient(132deg,#336247,#000c25 );
   height:calc(100vh);
   position:relative;
 .open .hero2 {
@@ -42,7 +42,7 @@
       h2 {
         position:absolute;
         top:96px;
-        left:92px;
+        left:820px;
         font-size: 56px;
         color: #FFA;
         
@@ -65,7 +65,7 @@
         line-height:21px;
         letter-spacing:3px;
         z-index: 1;
-        left:96px;
+        left:820px;
 
         @include mobile {
           font-size: 36px;
@@ -95,7 +95,7 @@
 
     #buttonx1 {
       top: 460px;
-      left: 8.5%;
+      left: 83.5%;
       
     }
 
@@ -108,7 +108,7 @@
 
     #buttonx3 {
       top: 460px; /* Adjust the vertical position as needed */
-      left: 42.9%; /* Adjust the horizontal position as needed */
+      left: 54.9%; /* Adjust the horizontal position as needed */
       transform: rotate(-60deg); /* Rotate the button by -60 degrees */
       
     }
@@ -124,8 +124,8 @@
           
           z-index:0;
           position:absolute;
-          top:-76px;
-          left:771px;
+          top:24px;
+          left:94px;
           z-index:1;
 
 
