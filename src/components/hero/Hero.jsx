@@ -87,7 +87,7 @@ const Hero = ({ open }) => {
               strategies to connect with a broader clientele, ensuring your
               brand reaches{" "}
               <motion.span
-                style={{ color: "yellow" }}
+                style={{ color: "black" }}
                 variants={textVariants}
                 animate="animate"
               >
