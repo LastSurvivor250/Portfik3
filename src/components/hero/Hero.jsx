@@ -82,8 +82,17 @@ const Hero = ({ open }) => {
               Paul Migasiuk. <br /> I build things for the web.
             </motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
-              I Help Your Business build up to the standards of modern Internet.
-              With me You will uncover effective ways to reach new Clients.
+              I elevate your business to meet the demands of the contemporary
+              internet landscape. Partnering with me unveils innovative
+              strategies to connect with a broader clientele, ensuring your
+              brand reaches{" "}
+              <motion.span
+                style={{ color: "yellow" }}
+                variants={textVariants}
+                animate="animate"
+              >
+                New Heights.
+              </motion.span>{" "}
             </motion.h1>
           </div>
         </motion.div>
