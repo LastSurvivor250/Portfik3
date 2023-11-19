@@ -76,19 +76,11 @@ const Hero = ({ open }) => {
 
           <div className="hero">
             <motion.h2 variants={textVariants} animate="animateFast ">
-              <motion.span
-                style={{ color: "yellow" }}
-                variants={textVariants}
-                animate="animateFast "
-              >
-                JS
-              </motion.span>{" "}
-              Web-Developer For Hire
+              My name is Paul Migasiuk. <br /> I build things for the web.
             </motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
-              We Help Your Business Explore The Depths of Modern Internet and
-              Find Most Effective Ways to Reach Your Potential Client in Both
-              Conventional and Unconventional Ways.
+              I Help Your Business build up to the standards of modern Internet.
+              With me You will uncover effective ways to reach new Clients.
             </motion.h1>
           </div>
         </motion.div>
