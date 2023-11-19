@@ -93,18 +93,14 @@
       width: 180px;
       z-index: 1;
       /*Adjustthesizeofthebuttonsasneeded*/height: 40px;
-      /*Adjustthesizeofthebuttonsasneeded*/background-color: #000000;
+      /*Adjustthesizeofthebuttonsasneeded*/background-color: #00000000;
       /*Buttonbackgroundcolor*/color: #fff942;
       /*Buttontextcolor*/border: solid 1px;
-      font-weight: 600;
+      font-weight: 400;
       text-align: center;
-      line-height: 2px;
-      border-radius: 25px;
-      -webkit-border-radius: 25px;
-      -moz-border-radius: 25px;
-      -ms-border-radius: 25px;
-      -o-border-radius: 25px;
-    }
+      line-height: 1px;
+      
+}
 
     #button1 {
       top: 434px;
