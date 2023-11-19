@@ -58,9 +58,6 @@ const Hero = ({ open }) => {
           <motion.button variants={textVariants} className="btn">
             Latest Works
           </motion.button>
-          <motion.button variants={textVariants} className="btn">
-            Contact Me
-          </motion.button>
 
           <div className="hero">
             <motion.h3 variants={textVariants} animate="animateFast ">

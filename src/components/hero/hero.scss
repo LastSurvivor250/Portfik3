@@ -142,7 +142,9 @@
   align-items: center;
   font-size: 14px;
   font-weight: 700;
-  position: relative;
+  position: absolute;
+  left:188px;
+  bottom:115px;
   z-index: 1;
   transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   cursor: pointer;
