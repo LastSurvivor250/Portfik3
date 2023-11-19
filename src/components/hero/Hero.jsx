@@ -51,29 +51,29 @@ const Hero = ({ open }) => {
           <div className="imageContainer">
             <img src="/hero4.png" alt="" />
           </div>
-          <motion.div variants={textVariants} className="triangle-container">
-            <motion.button
-              variants={textVariants}
-              className="button"
-              id="button1"
-            >
-              About
-            </motion.button>
-            <motion.button
-              variants={textVariants}
-              className="button"
-              id="button2"
-            >
-              Latest Works
-            </motion.button>
-            <motion.button
-              variants={textVariants}
-              className="button"
-              id="button3"
-            >
-              Contact Me
-            </motion.button>
-          </motion.div>
+
+          <motion.button
+            variants={textVariants}
+            className="button"
+            id="button1"
+          >
+            About
+          </motion.button>
+          <motion.button
+            variants={textVariants}
+            className="button"
+            id="button2"
+          >
+            Latest Works
+          </motion.button>
+          <motion.button
+            variants={textVariants}
+            className="button"
+            id="button3"
+          >
+            Contact Me
+          </motion.button>
+
           <div className="hero">
             <motion.h2 variants={textVariants} animate="animateFast ">
               <motion.span
