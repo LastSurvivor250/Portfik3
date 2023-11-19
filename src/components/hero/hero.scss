@@ -4,7 +4,7 @@
   
   overflow: hidden;
   background: linear-gradient(132deg,#21c469,#041e53 );
-  height:inherit;
+  height:fit-content;
 .open .hero {
   /* Adjust the width of OtherComponent when the sidebar is open */
   width: 40%; /* You can adjust the width value as needed */
@@ -53,7 +53,7 @@
         position:absolute;
         
         max-height:300px;
-        bottom:-120px;
+        bottom:140px;
         font:inherit;
         font-size: 19px;
         width:581px;
@@ -67,16 +67,6 @@
         }
       }
        
-
-      .triangle-container {
-  position: absolute;
-  left:-1012px;
-  justify-content: center;
-  width: 3270px; /* Adjust the size of the triangle container as needed */
-  height: 101px; /* Adjust the size of the triangle container as needed */
-  top:234px;
-  
-  /* Center the triangle container */
 
 }
 
@@ -121,7 +111,7 @@
         width: 50px;
         z-index: 1;
       }
-    }
+    
 
     .imageContainer {
    
@@ -147,6 +137,7 @@
           }
         }
   }
+}
 
 
 
@@ -159,4 +150,3 @@
     width: 50%;
     font-weight: bold;
   }
-}
