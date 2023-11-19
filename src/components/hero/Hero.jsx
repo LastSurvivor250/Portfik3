@@ -75,8 +75,11 @@ const Hero = ({ open }) => {
           </motion.button>
 
           <div className="hero">
+            <motion.h3 variants={textVariants} animate="animateFast ">
+              Hi, my name is
+            </motion.h3>
             <motion.h2 variants={textVariants} animate="animateFast ">
-              My name is Paul Migasiuk. <br /> I build things for the web.
+              Paul Migasiuk. <br /> I build things for the web.
             </motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
               I Help Your Business build up to the standards of modern Internet.
