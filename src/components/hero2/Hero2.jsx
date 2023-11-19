@@ -48,29 +48,28 @@ const Hero2 = ({ open }) => {
           initial="initial"
           animate="animate"
         >
-          <motion.div variants={textVariants} className="triangle-container2">
-            <motion.button
-              variants={textVariants}
-              className="buttonx"
-              id="buttonx1"
-            >
-              About
-            </motion.button>
-            <motion.button
-              variants={textVariants}
-              className="buttonx"
-              id="buttonx2"
-            >
-              Latest Works
-            </motion.button>
-            <motion.button
-              variants={textVariants}
-              className="buttonx"
-              id="buttonx3"
-            >
-              Contact Me
-            </motion.button>
-          </motion.div>
+          <motion.button
+            variants={textVariants}
+            className="buttonx"
+            id="buttonx1"
+          >
+            About
+          </motion.button>
+          <motion.button
+            variants={textVariants}
+            className="buttonx"
+            id="buttonx2"
+          >
+            Latest Works
+          </motion.button>
+          <motion.button
+            variants={textVariants}
+            className="buttonx"
+            id="buttonx3"
+          >
+            Contact Me
+          </motion.button>
+
           <div className="hero2">
             <motion.h2 variants={textVariants} animate="animateFast ">
               <motion.span

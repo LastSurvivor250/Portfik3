@@ -1,9 +1,10 @@
 @import "../../app.scss";
 
 .hero2 {
+  
   overflow: hidden;
   background: linear-gradient(132deg,#21c469,#041e53 );
-  height:calc(100vh - 100px);
+  height:calc(100vh);
   position:relative;
 .open .hero2 {
   /* Adjust the width of OtherComponent when the sidebar is open */
@@ -11,21 +12,22 @@
 }
   .wrapper2 {
     
-    display:flex;
-    flex-direction: row-reverse;
-    max-width: 2066px;
-    height: 117%;
-    margin: auto;
     
+    max-width: 2066px;
+    height: 100%;
+    margin: auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
     z-index: 1;
 
     .textContainer2 {
-      width: 90%;
-      height: 50%;
+      width: 100%;
+      
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 0px;
+      gap: 5px;
       z-index: 1;
       
 
@@ -37,94 +39,94 @@
         text-align: center;
       }
 
-      h1 {
-        
-        
-        max-height:300px;
-        bottom:-120px;
-        font:inherit;
-        font-size: 19px;
-        width:581px;
-        line-height:21px;
-        letter-spacing:3px;
-        z-index: 1;
-        left:12px;
-
-        @include mobile {
-          font-size: 36px;
-        }
-      }
-
       h2 {
-        
+        position:absolute;
+        top:96px;
+        left:92px;
         font-size: 56px;
         color: #FFA;
-        max-width: fit-content;
+        
         letter-spacing: -3px;
         z-index: 1;
         
         
         
       }
-     
-
       
+
+      h1 {
+        position:absolute;
+        
+        max-height:300px;
+        bottom:333px;
+        font:inherit;
+        font-size: 19px;
+        width:581px;
+        line-height:21px;
+        letter-spacing:3px;
+        z-index: 1;
+        left:96px;
+
+        @include mobile {
+          font-size: 36px;
+        }
+      }
        
 
-      .triangle-container2 {
-  
-  
-  /* Center the triangle container */
-}
-
-.buttonx {
-  position: absolute;
-  width: 180px;
-  /*Adjustthesizeofthebuttonsasneeded*/height: 40px;
-  /*Adjustthesizeofthebuttonsasneeded*/background-color: #000000;
-  /*Buttonbackgroundcolor*/color: #fff942;
-  /*Buttontextcolor*/border: solid 1px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 2px;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-}
-
-#buttonx1 {
-  top: 68px;
-  
-  
-}
-
-#buttonx2 {
-  top: 68px; /* Adjust the vertical position as needed */
-  left: 26.9%; /* Adjust the horizontal position as needed */
-  transform: rotate(60deg); /* Rotate the button by 60 degrees */
-  
-}
-
-#buttonx3 {
-  top: 68px; /* Adjust the vertical position as needed */
-  left: 44.9%; /* Adjust the horizontal position as needed */
-  transform: rotate(-60deg); /* Rotate the button by -60 degrees */
-  
-}
-
-      img {
-        width: 50px;
-        z-index: 1;
       }
+
+    .buttonx {
+      position: absolute;
+      width: 180px;
+      z-index: 1;
+      /*Adjustthesizeofthebuttonsasneeded*/height: 40px;
+      /*Adjustthesizeofthebuttonsasneeded*/background-color: #000000;
+      /*Buttonbackgroundcolor*/color: #fff942;
+      /*Buttontextcolor*/border: solid 1px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 2px;
+      border-radius: 25px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
     }
+
+    #buttonx1 {
+      top: 460px;
+      left: 8.5%;
+      
+    }
+
+    #buttonx2 {
+      top: 460px; /* Adjust the vertical position as needed */
+      left: 25.9%; /* Adjust the horizontal position as needed */
+      transform: rotate(60deg); /* Rotate the button by 60 degrees */
+      
+    }
+
+    #buttonx3 {
+      top: 460px; /* Adjust the vertical position as needed */
+      left: 42.9%; /* Adjust the horizontal position as needed */
+      transform: rotate(-60deg); /* Rotate the button by -60 degrees */
+      
+    }
+
+          img {
+            width: 50px;
+            z-index: 1;
+          }
+        
+
     .imageContainer {
    
-          position:absolute;
+          
           z-index:0;
+          position:absolute;
           top:-76px;
-          left:853px;
+          left:771px;
+          z-index:1;
 
 
           @include mobile {
@@ -139,10 +141,11 @@
             
             
             object-fit: cover;
-            width:600px;
+            width:484px;
           }
         }
   }
+}
 
 
 
@@ -155,4 +158,3 @@
     width: 50%;
     font-weight: bold;
   }
-}
