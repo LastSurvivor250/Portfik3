@@ -14,6 +14,11 @@ const Navbar = ({ open, setOpen }) => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         ></motion.span>
+
+        <a href="#" class="btn">
+          Learn More
+        </a>
+
         <button>
           Contact Me
           <div className="icon">
