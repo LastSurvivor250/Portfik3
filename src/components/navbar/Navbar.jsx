@@ -15,7 +15,7 @@ const Navbar = ({ open, setOpen }) => {
           transition={{ duration: 0.5 }}
         ></motion.span>
         <button>
-          Get to work
+          Contact Me
           <div className="icon">
             <span>
               <svg
