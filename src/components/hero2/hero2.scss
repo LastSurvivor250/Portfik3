@@ -1,9 +1,9 @@
 @import "../../app.scss";
 
 .hero2 {
-  height: inherit;
   overflow: hidden;
   background: linear-gradient(132deg,#21c469,#041e53 );
+  height:calc(100vh - 100px);
   position:relative;
 .open .hero2 {
   /* Adjust the width of OtherComponent when the sidebar is open */
@@ -121,7 +121,7 @@
     }
     .imageContainer {
    
-          
+          position:absolute;
           z-index:0;
           top:-76px;
           left:853px;
