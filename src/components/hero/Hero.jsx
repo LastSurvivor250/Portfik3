@@ -52,25 +52,13 @@ const Hero = ({ open }) => {
             <img src="/hero4.png" alt="" />
           </div>
 
-          <motion.button
-            variants={textVariants}
-            className="button"
-            id="button1"
-          >
+          <motion.button variants={textVariants} className="btn" id="button1">
             About
           </motion.button>
-          <motion.button
-            variants={textVariants}
-            className="button"
-            id="button2"
-          >
+          <motion.button variants={textVariants} className="btn" id="button2">
             Latest Works
           </motion.button>
-          <motion.button
-            variants={textVariants}
-            className="button"
-            id="button3"
-          >
+          <motion.button variants={textVariants} className="btn" id="button3">
             Contact Me
           </motion.button>
 
