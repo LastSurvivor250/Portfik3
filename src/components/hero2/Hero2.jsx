@@ -51,28 +51,6 @@ const Hero2 = ({ open }) => {
           initial="initial"
           animate="animate"
         >
-          <motion.button
-            variants={textVariants}
-            className="buttonx"
-            id="buttonx1"
-          >
-            About
-          </motion.button>
-          <motion.button
-            variants={textVariants}
-            className="buttonx"
-            id="buttonx2"
-          >
-            Latest Works
-          </motion.button>
-          <motion.button
-            variants={textVariants}
-            className="buttonx"
-            id="buttonx3"
-          >
-            Contact Me
-          </motion.button>
-
           <div className="hero2">
             <motion.h2 variants={textVariants} animate="animateFast ">
               <motion.span
@@ -85,9 +63,12 @@ const Hero2 = ({ open }) => {
               Web-Developer For Hire
             </motion.h2>
             <motion.h1 variants={textVariants} animate="animateFast ">
-              We Help Your Business Explore The Depths of Modern Internet and
-              Find Most Effective Ways to Reach Your Potential Client in Both
-              Conventional and Unconventional Ways.
+              I specialize in Web-Development and Content Creation- Constantly
+              Researching and Upgrading My Skills. Being an Engineer I have a
+              Tendency Dive Deep into the Technical Aspects of My Craft. <br />
+              In My Work I Mainly Use Java Script and its Various Libraries{" "}
+              <br />
+              To Deliver Efficient and Good Looking Solutions.
             </motion.h1>
           </div>
         </motion.div>
