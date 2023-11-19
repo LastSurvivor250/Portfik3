@@ -10,7 +10,7 @@ const textVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 3,
+      duration: 1,
       staggerChildren: 0.1,
     },
   },
@@ -19,7 +19,7 @@ const textVariants = {
     opacity: 0,
     y: 10,
     transition: {
-      duration: 3,
+      duration: 1,
       repeat: Infinity,
     },
   },
