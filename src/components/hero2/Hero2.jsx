@@ -42,6 +42,9 @@ const Hero2 = ({ open }) => {
   return (
     <div className={`hero2 ${open ? "open" : ""}`}>
       <div className="wrapper2">
+        <div className="imageContainer">
+          <img src="/hero4.png" alt="" />
+        </div>
         <motion.div
           className="textContainer2"
           variants={textVariants}
@@ -88,9 +91,6 @@ const Hero2 = ({ open }) => {
             </motion.h1>
           </div>
         </motion.div>
-        <div className="imageContainer">
-          <img src="/hero4.png" alt="" />
-        </div>
       </div>
 
       <motion.div
