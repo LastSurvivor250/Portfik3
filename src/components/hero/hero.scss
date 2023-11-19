@@ -41,7 +41,7 @@
 
       h2 {
         position:absolute;
-        top:96px;
+        top:28px;
         left:92px;
         font-size: 56px;
         color: #FFA;
@@ -124,9 +124,9 @@
           
           z-index:0;
           position:absolute;
-          top:-68px;
-          left:900px;
-          z-index:1;
+          top:-20px;
+          left:150px;
+          z-index:2;
 
 
           @include mobile {
